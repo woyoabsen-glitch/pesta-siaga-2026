@@ -8,7 +8,7 @@
  */
 
 const CONFIG = {
-  API_URL: 'GANTI_DENGAN_URL_WEB_APP_GAS_ANDA',
+  API_URL: 'https://script.google.com/macros/s/AKfycbyThXG-e88ZOMLXznF9V2BuS-dUF4jjTFlAiOr9meHkZdrvap8sORf98sbZiGT9E-VeAg/exec',
   APP_NAME: 'Pesta Siaga 2026',
   PENYELENGGARA: 'KKMI Bondowoso',
   TAGLINE: 'Tunas Kelapa, Berbakti Tanpa Henti',
