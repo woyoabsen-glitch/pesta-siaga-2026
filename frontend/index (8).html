@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masuk — Pesta Siaga 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="login-shell">
+
+  <!-- Panel kiri: identitas event -->
+  <section class="login-brand">
+    <div class="login-brand__top">
+      <div class="login-brand__logo">KK</div>
+      <div class="login-brand__org">
+        <strong>KKMI Bondowoso</strong>
+        Kelompok Kerja Madrasah Ibtidaiyah
+      </div>
+    </div>
+
+    <div class="login-brand__mid">
+      <div class="login-brand__eyebrow">Sistem Manajemen Terintegrasi</div>
+      <h1 class="login-brand__title">Pesta Siaga 2026</h1>
+      <p class="login-brand__desc">
+        Satu pintu untuk pendaftaran sekolah, verifikasi peserta, pembentukan
+        barung, hingga registrasi Hari H — dari pendaftaran sampai
+        upacara pembukaan.
+      </p>
+
+      <div class="login-brand__meta">
+        <div>
+          <span class="label">Tanggal</span>
+          <span class="value">27 Agustus 2026</span>
+        </div>
+        <div>
+          <span class="label">Lokasi</span>
+          <span class="value">Sukosari, Sumberwringin</span>
+        </div>
+        <div>
+          <span class="label">Sekolah</span>
+          <span class="value">12 Barung Terdaftar</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-brand__tagline">"Tunas Kelapa, Berbakti Tanpa Henti"</div>
+  </section>
+
+  <!-- Panel kanan: form login -->
+  <section class="login-form-wrap">
+    <form class="login-form" id="loginForm" autocomplete="off">
+
+      <div class="login-form__head">
+        <h2>Masuk ke akun Anda</h2>
+        <p>Gunakan akun panitia atau akun sekolah yang sudah diberikan.</p>
+      </div>
+
+      <div class="alert alert-error" id="alertError"></div>
+
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="contoh: sekolah01" required>
+      </div>
+
+      <div class="field field-password">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="••••••••" required>
+        <button type="button" id="togglePassword">Lihat</button>
+      </div>
+
+      <button type="submit" class="btn-submit" id="btnSubmit">
+        <span class="spinner"></span>
+        <span class="btn-label">Masuk</span>
+      </button>
+
+      <div class="login-form__foot">
+        <span>Lupa password? <strong>Hubungi Sekretariat</strong></span>
+      </div>
+    </form>
+  </section>
+
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
